@@ -13,6 +13,7 @@ This is a mini project which show the way that a Blockchain project made using t
 5. Generate a wallet with some accounts and set the `DEVELOP_WALLET_MNEMONIC` environment variable. You have two options.
 
 	**Option 1: Use an online wallet generator**
+	
 	5.1. Go to the [Wallet generator page](https://iancoleman.io/bip39/#english).
 
 	5.2. Change the **Coin** setting to **ETH - Ethereum**.
@@ -24,6 +25,7 @@ This is a mini project which show the way that a Blockchain project made using t
 	5.5. Copy and paste the **BIP39 Mnemonic** to the environment variable, and go to the step 6. Don't close the tab. We will use it later.
 
 	**Option 2: Use Ganache**
+	
 	5.1. Open Ganache Desktop.
 
 	5.2. Choose the **Quickstart option**
@@ -32,6 +34,7 @@ This is a mini project which show the way that a Blockchain project made using t
 
 6. Pick an account address from your wallet and request some Ether from a faucet. This step is always required. It doesn't matter if you generated your wallet from Ganache and you see you have some Ethers in your accounts. Those Ethers are valid only to run transactions in localhost, but not in the Ropsten net.the [Ropsten faucet]().
 	**If you have been taken the option 1 of the step 5, do this**
+	
 	6.1. If you closed the tab, change the **Coin** setting to **ETH - Ethereum** and paste the 12 words in the **BIP39 Mnemonic** input. Don't click generate. When you paste the Mnemonic your wallet will be regenerated automatically.
 
 	6.2. Scroll down until the **Derived Addresses** section. There are the account addresses of the wallet.
@@ -43,6 +46,7 @@ This is a mini project which show the way that a Blockchain project made using t
 	6.5. Wait until your account balance change from 0 to 1 ETH. It could take at most 1 hour. Trace your request in [Etherscan](https://ropsten.etherscan.io/) and search by the account address or transaction hash. Once all ok, go to the step 7.
 
 	**If you have been taken the option 2 of the step 5, do this**
+	
 	6.1. If you closed the Ganache's window, you made a mistake because you lost your wallet (quickstart doesn't persist the wallet, like **Create Workspace** do), return to the step 5. Otherwise continue with the step 6.2.
 
 	6.2. Copy to your notepad an **Address** and its **Private Key** (It will be found clicking the **Key** icon in the account's row).

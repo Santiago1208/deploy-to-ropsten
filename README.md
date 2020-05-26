@@ -32,7 +32,8 @@ This is a mini project which show the way that a Blockchain project made using t
 
 	5.3. Copy the 12 words of the generated wallet to the environment variable, and go to the step 6. Don't close the window. We will use it later.
 
-6. Pick an account address from your wallet and request some Ether from a faucet. This step is always required. It doesn't matter if you generated your wallet from Ganache and you see you have some Ethers in your accounts. Those Ethers are valid only to run transactions in localhost, but not in the Ropsten net.the [Ropsten faucet]().
+6. Pick an account address from your wallet and request some Ether from a faucet. This step is always required. It doesn't matter if you generated your wallet from Ganache and you see you have some Ethers in your accounts. Those Ethers are valid only to run transactions in localhost, but not in the Ropsten net.
+
 	**If you have been taken the option 1 of the step 5, do this**
 	
 	6.1. If you closed the tab, change the **Coin** setting to **ETH - Ethereum** and paste the 12 words in the **BIP39 Mnemonic** input. Don't click generate. When you paste the Mnemonic your wallet will be regenerated automatically.
